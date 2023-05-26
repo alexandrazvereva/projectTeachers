@@ -1,19 +1,23 @@
-body{
-    width: 1450px;
-    height: 2000px;
+body {
+    width: 1390px;
+    height: 1600px;
 }
 
 header {
-    width: 1450px;
-   
-    position: absolute;
+    width: 1390px;
+    height: 700px;
     background: #68085F;
 }
 
+main {
+    width: 1390px;
+    height: 886px;
+    background-color: #C509B2;
+}
 
 .container-header {
     display: flex;
-    width: 1480px;
+    width: 1390px;
     height: 100px;
     justify-content: space-around;
     font-family: 'Roboto';
@@ -34,6 +38,7 @@ header {
     font-size: 16px;
     width: 60px;
     height: 44px;
+    opacity: 0.8;
 }
 
 .menu-item:hover {
@@ -43,6 +48,10 @@ header {
     border: none;
     text-align: center;
     border-radius: 10px;
+    opacity: 1.8;
+    transform: scale(1.1);
+    transition: 1s;
+
 }
 
 .logo {
@@ -68,6 +77,8 @@ header {
     color: #fff;
     outline: 2px solid #f4eff2;
     border: none;
+    transform: scale(1.1);
+
 }
 
 .container_info {
@@ -113,15 +124,72 @@ h1 {
     text-align: center;
     justify-content: center;
     font-weight: lighter;
+    opacity: 0.7;
 }
 
 .container_basic {
     height: 700px;
     display: flex;
-  
+
 }
 
 .laptop {
     width: 755px;
     height: 498px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    padding: 5%;
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 34px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    ;
+
+
+}
+
+.container_cards {
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+   
+}
+
+.more_button {
+    width: 119px;
+    height: 44px;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    background-color: #C509B2;
+
+}
+
+.more_button:hover {
+    cursor: pointer;
+    color: #fff;
+    outline: 2px solid #f4eff2;
+    border: none;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+p {
+    opacity: 0.8;
 }
