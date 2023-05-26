@@ -1,6 +1,11 @@
+body{
+    width: 1450px;
+    height: 2000px;
+}
+
 header {
     width: 1450px;
-    height: 960px;
+   
     position: absolute;
     background: #68085F;
 }
