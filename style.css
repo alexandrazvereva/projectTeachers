@@ -278,3 +278,129 @@ h4 {
     transform: scale(1.1);
 
 }
+
+.social_vk {
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+
+
+
+}
+
+.vk_background {
+
+    position: absolute;
+    width: 133px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+
+}
+
+.vk_logo {
+    position: relative;
+    padding: 17%;
+
+
+
+}
+
+.social_list {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    margin: 2%;
+    justify-content: space-between;
+}
+
+.social_yotube {
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+
+
+}
+
+.youtube_background {
+
+    position: absolute;
+    width: 133px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+
+}
+
+.yotube_logo {
+    position: relative;
+    padding: 59%;
+
+
+
+}
+
+.social_facebook {
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+
+
+}
+
+.facebook_background {
+
+    position: absolute;
+    width: 133px;
+    height: 44px;
+
+
+
+}
+
+.facebook_logo {
+    position: relative;
+    padding: 26%;
+    display: flex;
+
+}
+
+.social_insta {
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+
+
+}
+
+.insta_background {
+
+    position: absolute;
+    width: 133px;
+ 
+    display: flex;
+    align-items: center;
+
+}
+
+.insta_square {
+    position: relative;
+    margin: 38%;
+
+
+
+}
+
+.insta_circle {
+    position: relative;
+    margin: 48%;
+
+}
+
+.sqaure_circle {
+    position: absolute;
+}
