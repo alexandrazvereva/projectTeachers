@@ -134,6 +134,12 @@ h1 {
     opacity: 0.7;
 }
 
+.label {
+    font-size: 16px;
+    opacity: 0.3;
+    color: #FFFFFF;
+}
+
 .container_basic {
     height: 700px;
     display: flex;
@@ -279,128 +285,49 @@ h4 {
 
 }
 
-.social_vk {
-    display: flex;
-    position: relative;
-    width: 70px;
-    height: 70px;
 
 
-
-}
-
-.vk_background {
-
-    position: absolute;
-    width: 133px;
-    height: 44px;
-    display: flex;
-    align-items: center;
-
-}
-
-.vk_logo {
-    position: relative;
-    padding: 17%;
-
-
-
-}
 
 .social_list {
-    width: 600px;
-    height: 200px;
-    display: flex;
-    margin: 2%;
-    justify-content: space-between;
-}
-
-.social_yotube {
-    display: flex;
-    position: relative;
-    width: 70px;
-    height: 70px;
-
-
-}
-
-.youtube_background {
-
-    position: absolute;
-    width: 133px;
-    height: 44px;
+    width: 300px;
+    height: 150px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 
 }
 
-.yotube_logo {
-    position: relative;
-    padding: 59%;
 
 
 
-}
 
-.social_facebook {
+
+
+
+.social_item {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
     display: flex;
-    position: relative;
-    width: 70px;
-    height: 70px;
-
-
-}
-
-.facebook_background {
-
-    position: absolute;
-    width: 133px;
-    height: 44px;
-
-
-
-}
-
-.facebook_logo {
-    position: relative;
-    padding: 26%;
-    display: flex;
-
-}
-
-.social_insta {
-    display: flex;
-    position: relative;
-    width: 70px;
-    height: 70px;
-
-
-}
-
-.insta_background {
-
-    position: absolute;
-    width: 133px;
- 
-    display: flex;
+    justify-content: center;
     align-items: center;
-
 }
 
-.insta_square {
-    position: relative;
-    margin: 38%;
-
-
-
+.social_item:hover {
+    color: #fff;
+    outline: 2px solid #f4eff2;
+    border: none;
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-.insta_circle {
-    position: relative;
-    margin: 48%;
-
+.social_item:active {
+    background: linear-gradient(94.26deg, #7e35d2 9.51%, #2c18ae 90.23%);
 }
 
-.sqaure_circle {
-    position: absolute;
+.pic_insta {
+    width: 50px;
+    height: 50px;
 }
